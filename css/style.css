@@ -11,6 +11,21 @@ body{
     background-color: rgb(246,248,249);
 }
 
+main{
+    width: 65%;
+    background-color: white;
+    margin: 3% auto;
+    border-radius: 10px;
+}
+
+#comandi, .todo_lists_container{
+    padding: 2% 4%;
+}
+
+#divider{
+    border: 1px solid rgb(246,248,249);
+}
+
 /* / generali */
 
 /* colori */
@@ -23,6 +38,26 @@ body{
     background-color: white;
 }
 
+.violet{
+    background-color: rgb(149,119,221);
+}
+
+.watergreen{
+    background-color: rgb(123,189,170);
+}
+
+.orange{
+    background-color: rgb(231,160,75);
+}
+
+.pink{
+    background-color: rgb(202,107,159);
+}
+
+.green{
+    background-color: rgb(181,199,73);
+}
+
 /* colori */
 
 /* testata */
@@ -31,13 +66,6 @@ header{
     height: 80px;
     background-color: white;
     line-height: 80px;
-}
-
-main{
-    width: 65%;
-    background-color: white;
-    margin: 3% auto;
-    padding: 0 4%;
 }
 
 #logo{
@@ -58,15 +86,11 @@ main{
 
 /* nav > comandi */
 
-#comandi{
-    border-bottom: 2px rgb(246,248,249);
-    padding: 2% 0;
-}
-
 .button_style{
     padding: 1% 1.5%;
     border: 1px solid;
     border-radius: 5px;
+    font-size: 15px;
 }
 
 .blue.button_style{
@@ -91,6 +115,102 @@ main{
     border-color: black;
 }
 
-/* Hover pulsanti */
+/* / Hover pulsanti */
+
+/* Formattazione tasks */
+
+.tasks_column{
+    margin: 4% 0%;
+}
+
+.tasklist_collapse_icon:before{
+    content: "\25BE";
+}
+
+.tasklist_title{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(68, 68, 68);
+}
+
+.task_row{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 17.5px;
+    padding: 1.5% 0;
+}
 
 
+
+    /* status task */
+.status_task{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: 15px;
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 50%;
+}
+    /* Fatto ed incompleto */
+
+.i_did{
+    color: lightgreen;
+    border-color: lightgreen;
+}
+
+.i_didn_t{
+    color: red;
+    border-color: red;
+}
+
+.i_did:before{
+    content: "\2713";
+}
+
+.i_didn_t:before{
+    content: "\2717";
+}
+
+    /* / status task */
+
+    /* task tag */
+
+.task_tag{
+    display: inline-block;
+    padding: 0.5% 1%;
+    font-size: 13px;
+    color: white;
+    border-radius: 25px;
+}
+        /* tag list */
+
+.editorial_tag:before{
+    content: "Editorial";
+}
+
+.q1_goals_tag:before{
+    content: "Q1 Goals";
+}
+
+.recruiting_tag:before{
+    content: "Recruiting";
+}
+
+.mobile_tag:before{
+    content: "Mobile";
+}
+
+.website_tag:before{
+    content: "Website";
+}
+
+.sales_tag:before{
+    content: "Sales";
+}
+        /* tag list */
+
+    /* / task tag */
+
+/* / Formattazione tasks */
