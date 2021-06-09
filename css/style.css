@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: verdana;
 }
 
 /* generali */
@@ -12,12 +13,31 @@ body{
 
 /* / generali */
 
+/* colori */
+
+.blue{
+    background-color: rgb(97,172,235);
+}
+
+.white{
+    background-color: white;
+}
+
+/* colori */
+
 /* testata */
 
 header{
     height: 80px;
     background-color: white;
     line-height: 80px;
+}
+
+main{
+    width: 65%;
+    background-color: white;
+    margin: 3% auto;
+    padding: 0 4%;
 }
 
 #logo{
@@ -30,9 +50,47 @@ header{
 
 #logo-text{
     display: inline-block;
-    font-family: verdana;
     font-size: 40px;
     font-weight: 600;
 }
 
 /* / testata */
+
+/* nav > comandi */
+
+#comandi{
+    border-bottom: 2px rgb(246,248,249);
+    padding: 2% 0;
+}
+
+.button_style{
+    padding: 1% 1.5%;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.blue.button_style{
+    color: white;
+    border-color: rgb(97,172,235);
+}
+
+.white.button_style{
+    color: rgb(219, 219, 219);
+    border-color: lightgray;
+}
+
+/* Hover pulsanti */
+
+.blue.button_style:hover{
+    color: rgb(97,172,235);
+    background-color: white;
+}
+
+.white.button_style:hover{
+    color: black;
+    border-color: black;
+}
+
+/* Hover pulsanti */
+
+
