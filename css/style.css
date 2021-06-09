@@ -3,3 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* generali */
+
+body{
+    background-color: rgb(246,248,249);
+}
+
+/* / generali */
+
+/* testata */
+
+header{
+    height: 80px;
+    background-color: white;
+    line-height: 80px;
+}
+
+#logo{
+    display: inline-block;
+    height: 70px;
+    line-height: 80px;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+#logo-text{
+    display: inline-block;
+    font-family: verdana;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+/* / testata */
